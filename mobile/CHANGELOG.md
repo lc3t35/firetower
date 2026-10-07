@@ -1,5 +1,84 @@
 # Changelog
 
+## [0.7.0](https://github.com/lc3t35/firetower/compare/mobile-v0.6.0...mobile-v0.7.0) (2026-10-07)
+
+
+### Features
+
+* **access:** a place can be shared; a conversation cannot ([4410cdd](https://github.com/lc3t35/firetower/commit/4410cdd18d55e8179ef336c963d84226dbccd955))
+* **access:** an API key a team shares, and a subscription that comes home ([e2b76e3](https://github.com/lc3t35/firetower/commit/e2b76e3d9389c1da48389d78e54318c57b018ee7))
+* **access:** nothing of theirs is swept unseen ([9a22677](https://github.com/lc3t35/firetower/commit/9a226773273db3d17d39bb07bd8a5ed548bd69bd))
+* **access:** people, teams and directories, over paths ([07a371d](https://github.com/lc3t35/firetower/commit/07a371d15c85191b2c038ba1a724999d3e329d68))
+* **access:** the reads and writes the sharing sheet needs ([5367dea](https://github.com/lc3t35/firetower/commit/5367dea9013a6d26ee344d002875feda685c7950))
+* **access:** what is somebody's own, nobody else can be given ([048e2fb](https://github.com/lc3t35/firetower/commit/048e2fbb05141748db4fd1ef1e09dcff7b048f6c))
+* **access:** what one person reaches, for deciding about them ([8ff7cc2](https://github.com/lc3t35/firetower/commit/8ff7cc2c08d5b44e59f63e0115148e02f06039f9))
+* **access:** what somebody administers, and what they made and left behind ([2983227](https://github.com/lc3t35/firetower/commit/29832276ca0f743f71f62077d767c3b0f48d76cf))
+* add an experimental ACP transport with Kimi Code ([#101](https://github.com/lc3t35/firetower/issues/101)) ([5d84e48](https://github.com/lc3t35/firetower/commit/5d84e48a35bf410958d04004c4c5428bd4a38fc0))
+* add repository connection from mobile app ([6456147](https://github.com/lc3t35/firetower/commit/6456147ed07fcbf974b8b3bda08b8a2bcfeae395))
+* add repository connection from mobile app ([b824734](https://github.com/lc3t35/firetower/commit/b824734b66d78959a5b277d28ecbb176434d0500))
+* **auth:** passwords are replaced on the web, and only there ([b035698](https://github.com/lc3t35/firetower/commit/b035698532284f1b0299a10d59bcd67cdbcb5057))
+* **conversation:** show the pictures an agent hands back ([27431b9](https://github.com/lc3t35/firetower/commit/27431b94757fa1644c35dbf7641e14908ffb4bde))
+* implement skills system end-to-end ([#208](https://github.com/lc3t35/firetower/issues/208)) ([a33e558](https://github.com/lc3t35/firetower/commit/a33e558119d58e984d7a5f5beea6f82e9368c572))
+* **kimi:** connect an account from the control plane, and install it ([fde88f0](https://github.com/lc3t35/firetower/commit/fde88f04ad7eb1f6bdc7acea8fb6f7435aaa7a75))
+* **mobile:** a composer with room in it, a menu, and a wave ([b796462](https://github.com/lc3t35/firetower/commit/b7964620b74f4c6244a070c8138496dc663f4069))
+* **mobile:** a point back off the sans, and a lit edge on the composer ([261de10](https://github.com/lc3t35/firetower/commit/261de10b15ad7d18b850478d25d99ad25eb71704))
+* **mobile:** a React Native client, against a real control plane ([c0e8fe7](https://github.com/lc3t35/firetower/commit/c0e8fe72a7300d52fcc9c5a0edf008d85b9f4733))
+* **mobile:** a type scale sized for a phone ([6ce70a1](https://github.com/lc3t35/firetower/commit/6ce70a10a43507f7d81ca8068b088eb68885ccf6))
+* **mobile:** attachments, dictation, drag-to-dismiss — and a way back to the repository ([2de6fd7](https://github.com/lc3t35/firetower/commit/2de6fd7095f0da4deefd511e502f7b9deb77dda6))
+* **mobile:** copy and colour on code blocks, and a composer that steps forward ([0d8d8ed](https://github.com/lc3t35/firetower/commit/0d8d8edae8233a192ce6cc1bc779bdd56cbecb11))
+* **mobile:** drop the second caption, align loaders, and ask the app ([febb71b](https://github.com/lc3t35/firetower/commit/febb71bb8b757b74ff7063590db89e1382e3e0be))
+* **mobile:** pickers that open, dictation that accumulates, a shorter pill ([cca68ac](https://github.com/lc3t35/firetower/commit/cca68ace0e10c6407861d1a6f7741a75c319691b))
+* **mobile:** read the agent's markdown the way the other clients do ([cd50a26](https://github.com/lc3t35/firetower/commit/cd50a268895b586694b08f41d2475744e3b968a2))
+* **mobile:** say what is being waited for ([74a43f9](https://github.com/lc3t35/firetower/commit/74a43f946903fc20d50d2deb8b3f4f4f0d5dcd9e))
+* **mobile:** tasks, and starting a workspace from one ([e5d88fd](https://github.com/lc3t35/firetower/commit/e5d88fd3689962a64d95ecb05e79d39abb43ff19))
+* **mobile:** the type scale reaches the screens made of text ([533bcd4](https://github.com/lc3t35/firetower/commit/533bcd441a14961a980352d8556d8d52c036db0e))
+* **mutliplayer:** comprehensive support for permissions and multi accounts ([a5a1f42](https://github.com/lc3t35/firetower/commit/a5a1f42b40845628b9f72936a61006bf4a6d27bb))
+* **organization:** everybody added from now on has an email ([542fa3e](https://github.com/lc3t35/firetower/commit/542fa3e0d53fa5082c7a9502cdec97b304d7d9b8))
+* paginate conversation on initial load and backward scroll ([9aae01f](https://github.com/lc3t35/firetower/commit/9aae01f3b7afad8e01a3659af54f333835d36ab9))
+* paginate conversation on initial load and backward scroll ([5fc9785](https://github.com/lc3t35/firetower/commit/5fc97857cb155d5ca40e54c4d880376a989dfc1a))
+* remember agent settings per session ([#206](https://github.com/lc3t35/firetower/issues/206)) ([f24c902](https://github.com/lc3t35/firetower/commit/f24c902e699d3f5cd4a29155a697029e134ca392))
+* **repos:** a repository belongs to whoever connected it ([7d9ef1f](https://github.com/lc3t35/firetower/commit/7d9ef1f8f8e44f3fca00f7c385b391dae9e1ed87))
+* reuse model and effort controls for Kimi ACP ([e2d1c7c](https://github.com/lc3t35/firetower/commit/e2d1c7c06c48ed2f359ba6a27a5a7496b8c05d13))
+* **sessions:** ending an agent ends that agent ([0599977](https://github.com/lc3t35/firetower/commit/05999778d46d35b36b1faab5d6c46c1ad370e8f5))
+* show agent screenshots and reclaim finished workspaces ([b5a766b](https://github.com/lc3t35/firetower/commit/b5a766b3755cfb6d1fc59e7ae5868cdc88823220))
+* **subagents:** add Codex support and defer turn completion for ([48bf029](https://github.com/lc3t35/firetower/commit/48bf029867d697d06cd64c541d1cafb098e2a574))
+* **subagents:** add Codex support and defer turn completion for ([ff1d776](https://github.com/lc3t35/firetower/commit/ff1d77667b6ba1459e3e76967564aca0b6a14ded))
+* **updates:** reading is not upgrading, and a machine is its administrator's ([1bf125a](https://github.com/lc3t35/firetower/commit/1bf125a1ba85b4367b520f25ba4de0d8007f548c))
+* **web:** decide what happens to somebody's work before they go ([c7c92ff](https://github.com/lc3t35/firetower/commit/c7c92ff761e6a4784201f0325ccf5fe8cc5148ad))
+
+
+### Bug Fixes
+
+* **access:** a secret is addressed by its whole key, owner included ([d8f2b6d](https://github.com/lc3t35/firetower/commit/d8f2b6d5087a004735991927f31d8e828c101d06))
+* **access:** a viewer may read a session and may not steer it ([1853117](https://github.com/lc3t35/firetower/commit/1853117246d06314e4cd7e39bf63a603b861bde4))
+* **access:** an agent account's path is a path, not raw ltree text ([d521640](https://github.com/lc3t35/firetower/commit/d52164079185dc6cdd76da383d2ff684d469841c))
+* **api:** regenerate the clients for the secrets contract ([ea29e11](https://github.com/lc3t35/firetower/commit/ea29e1100e6c1596e5c711213c3a52c2b5144efc))
+* **api:** regenerate the contract and all three clients ([4f38836](https://github.com/lc3t35/firetower/commit/4f388361d70b39af82ac42dfbdfbdb5178ae8dc9))
+* **apps:** one refusal, said once ([5ddabb2](https://github.com/lc3t35/firetower/commit/5ddabb290aab64b7af79fbe277db9e7deac980d8))
+* **composer:** controls that fit, and no box for a viewer ([7cf8a0f](https://github.com/lc3t35/firetower/commit/7cf8a0f231b65e0108800f73b9602a35f57eca71))
+* **mobile:** attachments have never worked, and code blocks could not be read ([84e0ea2](https://github.com/lc3t35/firetower/commit/84e0ea230e29ee06ff56eb27f773302e8df020dd))
+* **mobile:** catch a conversation up over HTTP, never over the socket ([a78e096](https://github.com/lc3t35/firetower/commit/a78e0968e87c9bddff3b1efaed8e239cbd2d4193))
+* **mobile:** draw the images, mean the grabber, move the strip ([f07e3ce](https://github.com/lc3t35/firetower/commit/f07e3ce13e7b8930dcd209d15558118d1f6d405a))
+* **mobile:** eas-cli is a tool, not a dependency — and it broke the build ([d8dcc62](https://github.com/lc3t35/firetower/commit/d8dcc6287544002f80482e4b89bacf0d76e64a02))
+* **mobile:** four things from the first real go on a phone ([a3a31fb](https://github.com/lc3t35/firetower/commit/a3a31fb9e35200979785d34f1b89ad20c9ada3c9))
+* **mobile:** keep build numbers on EAS and read the version from package.json ([df4cfb9](https://github.com/lc3t35/firetower/commit/df4cfb961fcce8d0afd73626b69fa35f1621c075))
+* **mobile:** keep build numbers on EAS and read the version from package.json ([638b2e6](https://github.com/lc3t35/firetower/commit/638b2e6076d66429e9e77c3bbb59233a3789be7e))
+* **mobile:** let a transcript be read again ([ec18507](https://github.com/lc3t35/firetower/commit/ec185079515f208cba1096a98cfb4ef39b298a4f))
+* **mobile:** one unfoldable event no longer eats the rest of the transcript ([5c8497c](https://github.com/lc3t35/firetower/commit/5c8497cb4a9d17c276636d718b53c43dc27db234))
+* **mobile:** pnpm left the build-script allow-list unanswered, and EAS died on it ([6990f1b](https://github.com/lc3t35/firetower/commit/6990f1b5f3467cb1e24673447391a46da0a9a206))
+* **mobile:** put the re-read where it can be reached ([856ef52](https://github.com/lc3t35/firetower/commit/856ef528db45aa3fe0bb27eabd5d91e4ea2fe553))
+* **mobile:** submit to TestFlight with the EAS API key and a literal ascAppId ([e8f071a](https://github.com/lc3t35/firetower/commit/e8f071a20bdca040d627ae41d1810b1ced8a61d3))
+* **mobile:** the composer grows past two lines ([2410ad0](https://github.com/lc3t35/firetower/commit/2410ad0bc5e54ffcc3e16f685035e9c64598563e))
+* **mobile:** the Connect button sat on the keyboard's edge on iOS ([36d1177](https://github.com/lc3t35/firetower/commit/36d1177bbf6e83c4472fdbeb619b1cc0d6409504))
+* **providers:** the application is only offered to whoever may set it ([8d12907](https://github.com/lc3t35/firetower/commit/8d129077b3a678b794d5b1ca379a62c445c8a9ba))
+* **secrets:** allow adding new secrets from the UI ([7573831](https://github.com/lc3t35/firetower/commit/75738318581f4e1ef919cd17101385d50d50c822))
+* **web:** the sign-in link comes from the server, not from the tab ([5c4e4c8](https://github.com/lc3t35/firetower/commit/5c4e4c88ff5bc00d8411fe823a3ce3676e0585f2))
+
+
+### Performance Improvements
+
+* optimize inspector diff by capping patches and querying names ([#205](https://github.com/lc3t35/firetower/issues/205)) ([4b023f3](https://github.com/lc3t35/firetower/commit/4b023f3d726e7eb1daf852e3fdf995ce0a24d883))
+
 ## [0.6.0](https://github.com/firetower-cloud/firetower/compare/mobile-v0.5.0...mobile-v0.6.0) (2026-10-06)
 
 
